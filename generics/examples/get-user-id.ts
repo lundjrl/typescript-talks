@@ -1,3 +1,5 @@
+import { isPartiallyEmittedExpression } from "typescript"
+
 interface UserLike {
     id: string
     firstName: string
@@ -13,7 +15,7 @@ export const getUserId = <T extends UserLike>(user: T): UserLike['id'] | null =>
     return user.id
 }
 
-export const getUserName = <T extends UserLike>(user: T): string => {
+export const getUserName = <T extends Omit<UserLike, 'age' | 'id'>>(user: T): string => {
     if (!user.firstName) return ''
     if (!user.lastName) return ''
 

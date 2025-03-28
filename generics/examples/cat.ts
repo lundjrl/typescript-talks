@@ -24,6 +24,7 @@ const casper: Cat = {
     likesTypescript: false
 }
 
+
 const mandy: Cat = {
     id: 'kfkdsf-i32iks-ksdmns-3s9dknl',
     name: "Mandy",
