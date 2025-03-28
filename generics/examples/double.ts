@@ -1,0 +1,1 @@
+export type Double<T, K> = T | K
