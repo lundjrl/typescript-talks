@@ -1,4 +1,4 @@
-# tt-generics
+# tt-inference
 
 To install dependencies:
 
