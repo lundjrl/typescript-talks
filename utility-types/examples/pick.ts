@@ -1,3 +1,13 @@
+/**
+ * Pick
+ * 
+ * What is it?
+ * - A utility type that returns an object with the selected types.
+ * 
+ * When to use:
+ * - When you have an object type and want only certain properties of that type.
+ */
+
 type User = {
     id: string
     first_name: string

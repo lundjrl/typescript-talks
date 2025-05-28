@@ -1,3 +1,12 @@
+/**
+ * Constructor Parameters
+ * 
+ * What is it?
+ * - A type for returning a tuple of the parameters needed to create an object.
+ * 
+ * When to use:
+ * - OOP; When you want to document the input variables of a class constructor.
+ */
 class C {
     // constructor() {
 

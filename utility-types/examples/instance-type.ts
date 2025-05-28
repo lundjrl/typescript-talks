@@ -1,3 +1,13 @@
+/**
+ * Instance Type
+ * 
+ * What is it?
+ * - A utility type to generate the type of a class.
+ * 
+ * When to use:
+ * - When you have a class and want to expose its properties.
+ */
+
 // Class Constructor 
 class C {
     x = 0

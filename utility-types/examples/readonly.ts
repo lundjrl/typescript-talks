@@ -1,3 +1,13 @@
+/**
+ * Readonly
+ * 
+ * What is it?
+ * - A utility type that treats the passed type's properties as readonly.
+ * 
+ * When to use:
+ * - When you have an object type and want all properties of that type to be readonly/immutable.
+ */
+
 // Readonly makes a type immutable
 
 type User = {

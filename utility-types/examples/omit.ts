@@ -1,3 +1,13 @@
+/**
+ * Omit
+ * 
+ * What is it?
+ * - A type for returning all properties in the passed type EXCEPT those in the union.
+ * 
+ * When to use:
+ * - When you have a model but only care about more than half of the types within it.
+ */
+
 type Cat = {
     id: string
     name: string
